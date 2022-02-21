@@ -1,0 +1,21 @@
+pip install django
+django-admin startproject url - create a project
+python3 manage.py makemigrations - refresh set up. everytime you make an app or update something with models. eg change models.py you need to run this and the line under this
+python3 manage.py migrate - refresh setup. so models are in line with database
+python3 manage.py createsuperuser - u:nathan p:nathan
+python3 manage.py runserver - emulate production server
+python3 manage.py startapp shorten
+python3 manage.py shell - can make objects in python shell
+
+make a quick command - eg python3 manage.py refreshcodes
+https://docs.djangoproject.com/en/4.0/howto/custom-management-commands/
+go look at management folder
+
+see settings to make variables
+
+# for redicting blog.aaaaa.com to -> www.aaaaa.com
+pip install django-hosts
+https://django-hosts.readthedocs.io/en/latest/
+
+form validation
+https://docs.djangoproject.com/en/4.0/ref/forms/validation/
